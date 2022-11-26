@@ -8,6 +8,7 @@ pipeline {
                 """
             }
         }
+    }
     stages {
         stage('Deploy code') {
             steps {
